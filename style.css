@@ -31,3 +31,12 @@ btn{
 /* common style end------------ */
 
 
+/* header bg color */
+.cbr-bg-header{
+
+    background: #264653;
+
+}
+.filter-img{
+    filter: grayscale(100%);
+}
