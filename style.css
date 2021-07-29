@@ -86,6 +86,10 @@ btn {
   margin-left: auto;
 }
 
+footer .container-fluid {
+  height: 28rem;
+}
+
 /* Responsive Solution--------------------------------- */
 
 @media (max-width: 576px) {
