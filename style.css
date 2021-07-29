@@ -1,4 +1,5 @@
 /* common style start */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;600&display=swap");
 
 html {
@@ -34,6 +35,10 @@ btn {
   background: #264653;
 }
 
+.cbr-btn-primary {
+  background: #e76f51;
+}
+
 .cbr-btn-success {
   background: #e76f51;
   padding: 0.8rem 3rem;
@@ -50,7 +55,26 @@ btn {
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
-/* Responsive Solution */
+/* Extra Section 1 Style */
+
+.cbr-bg-secondary {
+  background: lightgray;
+}
+.cbr-social-section {
+  height: 20rem;
+  padding-top: 5rem;
+}
+
+/* Extra Section 2 Style */
+.cbr-extra-section-2 {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0rem);
+  padding-left: var(--bs-gutter-x, 0rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Responsive Solution--------------------------------- */
 
 @media (max-width: 576px) {
   .cbr-faq-img img {
@@ -67,5 +91,13 @@ btn {
 
   .modal-footer button {
     width: 100%;
+  }
+
+  .cbr-video h2 {
+    font-size: 3rem;
+  }
+
+  .cbr-video p {
+    visibility: hidden;
   }
 }
