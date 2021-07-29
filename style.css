@@ -31,8 +31,16 @@ btn {
 /* common style end------------ */
 
 /* header bg color */
-.cbr-bg-header {
+.cbr-bg {
   background: #264653;
+}
+
+.navbar ul li {
+  width: 10rem;
+}
+
+.navbar form {
+  margin-left: 10rem;
 }
 
 .cbr-btn-primary {
