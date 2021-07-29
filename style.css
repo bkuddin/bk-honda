@@ -33,6 +33,11 @@ btn {
 .cbr-bg-header {
   background: #264653;
 }
+
+.cbr-btn-success {
+  background: #e76f51;
+  padding: 0.8rem 3rem;
+}
 .filter-img {
   filter: grayscale(100%);
 }
@@ -51,5 +56,16 @@ btn {
   .cbr-faq-img img {
     width: 100% !important;
     padding: 3rem 1rem;
+  }
+
+  .modal-footer input {
+    width: 100% !important;
+    margin-bottom: 1rem;
+
+    padding-bottom: 2rem;
+  }
+
+  .modal-footer button {
+    width: 100%;
   }
 }
