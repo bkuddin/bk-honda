@@ -43,6 +43,10 @@ btn {
   background: #e76f51;
   padding: 0.8rem 3rem;
 }
+
+.cbr-text-warning {
+  color: #e76f51;
+}
 .filter-img {
   filter: grayscale(100%);
 }
