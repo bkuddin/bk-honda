@@ -88,6 +88,7 @@ btn {
 
 footer .container-fluid {
   height: 28rem;
+  padding-top: 7rem;
 }
 
 /* Responsive Solution--------------------------------- */
@@ -115,5 +116,9 @@ footer .container-fluid {
 
   .cbr-video p {
     visibility: hidden;
+  }
+
+  footer .container-fluid {
+    padding-top: 2rem;
   }
 }
